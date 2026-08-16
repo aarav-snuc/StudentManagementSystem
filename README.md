@@ -6,4 +6,4 @@ KekranMekran Company Pvt Ltd
 - Developer B
 
 ## Project Status
-Project initialized.
+Attendance module completed by Developer A.
