@@ -6,4 +6,4 @@ KekranMekran Company Pvt Ltd
 - Developer B
 
 ## Project Status
-Project initialized.
+Marks module completed by Developer B.
