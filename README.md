@@ -6,4 +6,5 @@ KekranMekran Company Pvt Ltd
 - Developer B
 
 ## Project Status
+Attendance module completed by Developer A.
 Marks module completed by Developer B.
