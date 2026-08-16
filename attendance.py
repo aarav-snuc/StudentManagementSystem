@@ -1,14 +1,7 @@
-attendance_records = {}
-
-
-def mark_attendance(roll, status):
-    attendance_records.setdefault(roll, []).append(status)
-    print("Attendance marked for", roll, ":", status)
-
-
 def attendance_percentage(roll):
     records = attendance_records.get(roll, [])
-    if not records:
-        return 0
+    if len(records) == 0:
+        print("No attendance records found for", roll)
+        return 0.0
     present = records.count("P")
-    return (present / len(records)) * 100
+    return round((present / len(records)) * 100, 2)
